@@ -1,0 +1,613 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-contant{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+/*=========main-css=======*/
+
+
+
+.header-logo{
+    width: 30%;
+    float: left;
+}
+.header-logo img{
+    width: 60px;
+    margin-top: 5px;
+
+}
+
+.header-menu{
+    width: 70%;
+    float: right;
+}
+.primary{
+    margin-left: 107px;
+}
+.primary ul{}
+.primary ul li{
+    display: inline-block;
+    
+
+}
+.primary ul li a{
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #000;
+    
+}
+
+/*======================banner-saction===================*/
+
+
+.banner-saction{
+    background-image: url(https://i.ibb.co/tM0rRx7/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 9;
+}
+.banner-saction::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+
+}
+
+.banner-saction h4{
+    color: #fff;
+    font-size: 25px;
+}
+.banner-saction h1{
+    color: #fff;
+    font-size: 52px;
+    padding: 30px 0;
+    padding-bottom: 60px;
+}
+.banner-saction a{ 
+    background-color: #fff;
+    padding: 20px 41px;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: .4s;
+}
+.banner-saction a:hover{
+    background-color: rgb(223, 134, 2);
+    
+    color: #ddd;
+}
+
+
+
+/*=========dolor-saction=============*/
+
+
+
+
+
+
+.dolor-saction{
+    background-color: rgb(243, 242, 242);
+    
+}
+.text-sac h2{
+font-size: 50px;
+padding-top: 40px;
+font-weight: 500;
+}
+.text-sac p{
+    margin: 30px 0;
+}
+
+.mid-saction:hover .a-btn{
+    background-color: rgb(223, 134, 2);
+    color: #fff;
+}
+.mid-saction:hover .a-btn a{
+    color: #fff;
+}
+
+
+.mid-saction:hover .banner-bottom{
+    background-color: rgb(223, 134, 2);
+    color: #fff;
+
+}
+.mid-saction:hover .banner-bottom h1{
+    background-color: rgb(223, 134, 2);
+    color: #fff;
+
+}
+.banner-bottom{
+    width: 31%;
+    background-color: #fff;
+    box-shadow: 1px 0px 13px -1px grey;
+    float: left;
+    margin: 0px px;
+    margin-top: 50px;
+    margin-left: 20px;
+    transition: .4s;
+
+}
+.banner-bottom h4{
+    padding: 30px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.banner-bottom h1{
+    font-size: 51px;
+    margin: 0px 20px;
+    background-color: #f0eeee;
+    transition: .4s;
+
+}
+
+
+.banner-bottom span{
+    font-size: 25px;
+}
+.banner-bottom h5{
+    font-size: 20px;
+    padding: 30px 0;
+    margin-left: 20px;
+}
+.banner-bottom p{
+    margin-left: 20px;
+    padding-bottom: 30px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+.time-tracking{
+    width: 31%;
+    background-color: #fff;
+    float: left;
+    margin-left: 20px;
+    border-top: 1px solid rgb(214, 214, 214);
+    margin-bottom: 50px;
+    box-shadow: 13px 15px 10px -17px grey;
+
+}
+.varsion-saction{
+
+}
+.varsion-saction i{
+    font-size: 30px;
+    color: chocolate;
+   
+}
+.varsion-saction ul{
+    line-height: 68px;
+    font-size: 26px;
+    color: gray;
+    margin-left: 30px;
+}
+.varsion-saction ul li{
+    list-style: none;
+}
+.a-btn{
+    width: 150px;
+    color: gray;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 13px -1px grey;
+    margin: 20px;
+    margin-left: 112px;
+    text-align: center;
+    transition: .4s;
+}
+.a-btn a{
+    color:#000;
+    transition: .4s;
+}
+
+
+/*==================photo-saction =================*/
+
+
+
+
+.photo-saction{
+
+}
+.text-nn{
+text-align: center;
+font-size: 25px;
+padding: 80px 0;
+
+}
+.text-nn h2{
+    font-weight: 500;
+}
+.photo-nn{
+    width: 23%;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 80px;
+
+    border: 3px solid chocolate;
+    border-width:5px;  
+    border-style:double;
+}
+.photo-nn img{
+   
+}
+.photo-nn h4{
+    margin: 20px 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.photo-nn p{
+margin-left: 20px;
+color: gray;
+margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+.Subcsribe-saction{
+    background-color: rgb(243, 242, 242);
+    
+
+}
+.Subcsribe-saction p{
+    padding-top: 60px;
+    color: gray;
+    font-size: 20px;
+}
+.Subcsribe-saction h1{
+    padding: 40px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.Subcsribe-saction input[type=email]{
+    border:1px solid rgb(158, 156, 18);
+    width:450px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.Subcsribe-saction input:focus{
+    outline: none;
+    border-top: 1px solid green;
+    border-bottom: 1px solid blue;
+    box-shadow: 1px 1px 15px #9292df;
+ 
+}
+
+.a-taag a{
+    padding: 15px 50px;
+    background-color: rgb(148, 146, 17);
+    border: 1px solid rgb(148, 146, 17);
+    display: inline-block;
+    margin: 30px 0;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: .4s;
+}
+.a-taag a:hover{
+    background-color: #fff;
+    border: 1px solid rgb(77, 141, 3);
+    color: chocolate;
+    box-shadow: 1px 1px 20px 0px rgb(110, 110, 110);
+
+}
+.tt-text h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+
+}
+.p-saction{
+    width: 650px;
+    float: left;
+    margin-top: 50px;
+    
+}
+.p-saction img{
+    width: 620px;
+
+}
+
+.t-saction{
+    width: 650px;
+    float: right;
+    
+}
+.t-saction h3{
+    padding: 20px 0px;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: left;
+}
+.t-saction p{
+color: gray;
+font-size: 19px;
+}
+.text-and-text{
+    margin-top: 50px;
+}
+.choose-saction{
+    margin: 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-saction{
+    background-color: rgb(243, 242, 242);
+    text-align: center;
+    padding-bottom: 80px;
+}
+.text-to-sac h5{
+    padding: 50px 0;
+    font-weight: 500;
+}
+.text-to-sac h2{
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.image-and-text-saction{
+    width: 400px;
+    float: left;
+    text-align: left;
+    border: 2px solid gray;
+    margin-left: 20px;
+
+}
+
+
+.pppp-tag{
+    background-color: #fff;
+    padding: 40px;
+    line-height: 2.2em;
+}
+
+.bagg-saction{
+    width: 37px;
+    height: 38px;
+    background-color: #fff;
+    transform: rotate(136deg);
+    position: absolute;
+    margin-left: 187px;
+    margin-top: -22px;
+}
+.pppp-tag p{
+    position: relative;
+}
+
+.pppp-tag p::before{
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-size: 70px;
+    position: absolute;
+    opacity: .2;
+    margin-left: -20px;
+
+}
+.pppp-tag p{
+    color: gray;
+}
+
+
+.img-saction img{
+    width: 100px;
+    float: left;
+    border: 5px solid rgb(148, 146, 17);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
+
+
+
+
+.tex-saction{
+    float: left;
+    padding:  0px 20px;
+    margin-top: 60px;
+    font-size: 19px;
+}
+.tex-saction p{
+    color: gray;
+    padding-top: 10px;
+}
+.tex-saction h3{
+    font-weight: 500;
+}
+
+
+/*=========================contact-saction=======================*/
+
+
+.text-input-type{
+    margin: 0 300px;
+}
+
+.text-input-type h2{
+    margin: 40px 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+.text-input-type p{
+    color: gray;
+}
+.text-input-type input[type=email]{
+    border:1px solid rgb(158, 156, 18);
+    width:600px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 15px 0px;
+    
+}
+
+.text-input-type input:focus{
+    outline: none;
+    border-top: 1px solid green;
+    border-bottom: 1px solid blue;
+    box-shadow: 1px 1px 15px #9292df;
+
+    
+}
+
+
+
+.text-input-type input[type=text]{
+    border:1px solid rgb(158, 156, 18);
+    width:288px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 4px;
+
+    
+}
+.text-input-type input:focus{
+    outline: none;
+    border-top: 1px solid green;
+    border-bottom: 1px solid blue;
+    box-shadow: 1px 1px 15px #9292df;
+
+    
+}
+.text-input-type input[type=tel]{
+    border:1px solid rgb(158, 156, 18);
+    width:285px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.text-input-type input:focus{
+    outline: none;
+    border-top: 1px solid green;
+    border-bottom: 1px solid blue;
+    box-shadow: 1px 1px 15px #9292df;
+
+    
+}
+
+
+.text-input-type textarea{
+    width: 600px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.text-input-type textarea:focus{
+    outline: none;
+    box-shadow: 1px 1px 15px #9292df;
+    border-top: 1px solid green;
+    border-bottom: 1px solid blue;
+
+}
+.a-taaggg a{
+    padding: 10px 50px;
+    background-color: rgb(148, 146, 17);
+    border: 1px solid rgb(148, 146, 17);
+    display: inline-block;
+    margin: 30px 0;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .4s;
+}
+.a-taaggg a:hover{
+    background-color: #fff;
+    border: 1px solid rgb(77, 141, 3);
+    color: chocolate;
+    box-shadow: 1px 1px 20px 0px rgb(110, 110, 110);
+}
+
+
+
+
+
+.footer h5{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 30px 0;
+    color: rgb(63, 62, 62);
+}
